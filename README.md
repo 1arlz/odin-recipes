@@ -1,1 +1,1 @@
-# html_css
+# The Odin Project Curriculum
