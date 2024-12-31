@@ -1,0 +1,32 @@
+
+header {
+    margin: 0;
+    padding: 10px;
+}
+
+.recipes #odin-logo{
+    font-display: block;
+    margin-inline-start: 5px;
+    
+}
+
+#empanadas-main-picture {
+    display: block;
+    margin-inline: auto;
+    width: 800px;
+    height: auto;
+}
+
+#tacos-main-picture {
+    display: block;
+    margin-inline: auto;
+    width: 400px;
+    height: auto;
+}
+
+#bread-main-picture {
+    display: block;
+    margin-inline: auto;
+    width: 400px;
+    height: auto;
+}
