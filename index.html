@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="../odin-recipes/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="main">
-        <h1 id="main-title">Odin Recipes</h1>
+        <div class="header">
+            <h1 id="main-title">Odin Recipes</h1>
+        </div>
+        <div class="header logo">
+            <img src="images/odin-logo.svg" alt="odin logo" id="odin-logo">
+        </div>
+        
     </header>
-    <img src="../odin-recipes/images/odin-logo.svg" alt="odin logo" id="odin-logo">
 
     
-    <ul>
-        <li><a href="recipes/empanadas.html" rel="noopener noreferrer">Argentinian Empanadas</a></li>
-        <li><a href="recipes/tacos.html" rel="noopener noreferrer"> Beef Tacos</a></li>
-        <li><a href="recipes/bread.html" rel="noopener noreferrer">Homemade Bread</a></li>
 
+    
 
-    </ul>
+    <div class="galery">
+        <div class="recipe-card">
+            <div class="card-title">
+                <h3><a href="./recipes/empanadas.html">Argentinian Empanadas</a></h3>
+            </div>
+            <img src="./images/portada-empanadas.jpeg" alt="empanadas" class="card-image">
+        </div>
+        <div class="recipe-card">
+            <div class="card-title">
+                <h3><a href="./recipes/tacos.html">Beef Tacos</a></h3>
+            </div>
+            <img src="./images/tacos.jpeg" alt="empanadas" class="card-image">
+        </div>
+        <div class="recipe-card">
+            <div class="card-title">
+                <h3><a href="./recipes/bread.html">Homemade bread</a></h3>
+            </div>
+            <img src="./images/bread.jpg" alt="empanadas" class="card-image">
+        </div>
+
+    </div>
 </body>
 </html>
